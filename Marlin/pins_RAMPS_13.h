@@ -8,7 +8,7 @@
  *  RAMPS_13_EFF (Extruder, Fan, Fan)
  *  RAMPS_13_EEF (Extruder, Extruder, Fan)
  *  RAMPS_13_SF  (Spindle, Controller Fan)
- * 
+ *
  *  RAMPS_14_EFB (Extruder, Fan, Bed)
  *  RAMPS_14_EEB (Extruder, Extruder, Bed)
  *  RAMPS_14_EFF (Extruder, Fan, Fan)
@@ -154,8 +154,8 @@
     #if ENABLED(REPRAP_DISCOUNT_SMART_CONTROLLER)
       #define BEEPER_PIN 37
 
-      #define BTN_EN1 31
-      #define BTN_EN2 33
+      #define BTN_EN1 33
+      #define BTN_EN2 31
       #define BTN_ENC 35
 
       #define SD_DETECT_PIN 49
